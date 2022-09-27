@@ -1,0 +1,334 @@
+.aboutme {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+width: 100vw;
+height: 100vh;
+  margin: 0;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+
+.divbody{
+  width: 100vw;
+  height: 100vh;
+}
+h1 {
+    margin-top: -118px;
+    margin-bottom: auto;
+    color: black;
+    font-size: 4rem;
+    line-height: 2;
+    margin-left: 10rem;
+    position: absolute;
+}
+
+h2 {
+  font-size: 3rem;
+  margin-top: .1%;
+  margin-right: 50rem;
+  color: black;
+  font-weight: normal;
+
+}
+.h21{
+  margin-top: -3rem;
+}
+
+.h23{
+margin-left: 20rem;
+margin-top: -17rem;
+position: absolute;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: white;
+  margin-bottom: 20rem;
+  margin-right: 1150px;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 60px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #E3E3E3;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav .active {
+  background-color: black;
+  color: white;
+}
+
+/* Add a black background color to the top navigation */
+.topnav2 {
+  background-color: white;
+  margin-bottom: 20rem;
+  margin-right: 37rem;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav2 a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 60px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+/* Change the color of links on hover */
+.topnav2 a:hover {
+  background-color: #E3E3E3;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav2 .active {
+  background-color: black;
+  color: white;
+}
+
+p {
+  margin-bottom: 100px;
+  font-size: 150%;
+}
+
+.HOME {
+  color: black;
+  font-size: 1rem;
+}
+.h2-top{
+  -webkit-animation: fadeIn 3s ease-in alternate;
+  -moz-animation: fadeIn 3s ease-in alternate;
+  -o-animation: fadeIn 3s ease-in alternate;
+  -ms-animation: fadeIn 3s ease-in alternate;
+
+}
+.parent {
+  margin-right: auto;
+  margin-left: auto;
+  height: 400px;
+  width: 2000px;
+}
+
+.top-container {
+  padding-right: 100px;
+  padding-bottom: 0;
+
+}
+
+.middle-container {
+  background-color: white;
+  position: relative;
+  /*padding-top: 100px; may need this later*/
+}
+
+.skill-row {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.bottom-container {
+  background-color: white;
+  margin-right: 18px;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.bottom-container a {
+  color: black;
+  text-align: center;
+  padding: 14px 60px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+/* Change the color of links on hover */
+.bottom-container a:hover {
+  background-color: #E3E3E3;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.bottom-container .active {
+  background-color: black;
+  color: white;
+}
+
+.abstract {
+  position: relative;
+  left: 38rem;
+  bottom: 48rem;
+  -webkit-animation: fadeIn 2s ease-in alternate;
+  -moz-animation: fadeIn 2s ease-in alternate;
+  -o-animation: fadeIn 2s ease-in alternate;
+  -ms-animation: fadeIn 2s ease-in alternate;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.skill1 {
+  width: 80px;
+  height: 100px;
+  position: absolute;
+  left: 20rem;
+}
+
+.skill2 {
+  width: 70px;
+  height: 100px;
+}
+
+.selfie {
+  position: relative;
+  right: 18rem;
+  bottom: 67rem;
+  width: 550px;
+  height: 550px;
+  -webkit-animation: fadeIn 1.5s ease-in alternate;
+  -moz-animation: fadeIn 1.5s ease-in alternate;
+  -o-animation: fadeIn 1.5s ease-in alternate;
+  -ms-animation: fadeIn 1.5s ease-in alternate;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.profile {
+  margin: auto;
+}
